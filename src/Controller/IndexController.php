@@ -12,7 +12,7 @@ class IndexController
     {
         return [
             'title'   => 'My New Simple API',
-            'version' => 1,
+            'version' => $_ENV['PHPRAS_VERSION'],
             'status'  => 'up',
         ];
     }

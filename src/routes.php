@@ -2,6 +2,6 @@
 
 use PHPRAS\Controller\IndexController;
 
-const CURRENT_API_VERSION = 'v1';
+$phpRASVersion = $_ENV['PHPRAS_VERSION'];
 
-$router->map('GET', '/{CURRENT_API_VERSION}/', [PHPRAS\Controller\IndexController::class, 'index']);
+$router->map('GET', "/{$phpRASVersion}/", [PHPRAS\Controller\IndexController::class, 'index']);
