@@ -4,7 +4,8 @@
         "laminas/laminas-diactoros": "^3.8",
         "laminas/laminas-httphandlerrunner": "^2.13",
         "league/container": "^5.1",
-        "symfony/dotenv": "^7.4"
+        "symfony/dotenv": "^7.4",
+        "league/oauth2-server": "^9.3"
     },
     "autoload": {
         "psr-4": {
